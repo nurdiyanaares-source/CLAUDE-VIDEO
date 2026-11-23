@@ -1,0 +1,919 @@
+[
+ {
+  "start": 0.0,
+  "end": 4.32,
+  "text": " Dengan pembelian kantor multi-focal premium, kami nak bagi free upgrade",
+  "words": [
+   {
+    "w": " Dengan",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": " pembelian",
+    "s": 0.38,
+    "e": 0.98
+   },
+   {
+    "w": " kantor",
+    "s": 0.98,
+    "e": 1.48
+   },
+   {
+    "w": " multi",
+    "s": 1.48,
+    "e": 1.78
+   },
+   {
+    "w": "-focal",
+    "s": 1.78,
+    "e": 2.04
+   },
+   {
+    "w": " premium,",
+    "s": 2.04,
+    "e": 2.58
+   },
+   {
+    "w": " kami",
+    "s": 2.7,
+    "e": 2.92
+   },
+   {
+    "w": " nak",
+    "s": 2.92,
+    "e": 3.1
+   },
+   {
+    "w": " bagi",
+    "s": 3.1,
+    "e": 3.7
+   },
+   {
+    "w": " free",
+    "s": 3.7,
+    "e": 3.88
+   },
+   {
+    "w": " upgrade",
+    "s": 3.88,
+    "e": 4.32
+   }
+  ]
+ },
+ {
+  "start": 4.32,
+  "end": 7.66,
+  "text": " antar auto gelap, jimat sehingga 700 singgit",
+  "words": [
+   {
+    "w": " antar",
+    "s": 4.32,
+    "e": 4.78
+   },
+   {
+    "w": " auto",
+    "s": 4.78,
+    "e": 5.02
+   },
+   {
+    "w": " gelap,",
+    "s": 5.02,
+    "e": 5.38
+   },
+   {
+    "w": " jimat",
+    "s": 5.38,
+    "e": 5.72
+   },
+   {
+    "w": " sehingga",
+    "s": 5.72,
+    "e": 6.26
+   },
+   {
+    "w": " 700",
+    "s": 6.26,
+    "e": 6.68
+   },
+   {
+    "w": " singgit",
+    "s": 6.68,
+    "e": 7.66
+   }
+  ]
+ },
+ {
+  "start": 7.66,
+  "end": 12.04,
+  "text": " Anda nak pakai multi-focal tapi risau pening atau susah nak biasakan diri?",
+  "words": [
+   {
+    "w": " Anda",
+    "s": 7.66,
+    "e": 7.9
+   },
+   {
+    "w": " nak",
+    "s": 7.9,
+    "e": 8.06
+   },
+   {
+    "w": " pakai",
+    "s": 8.06,
+    "e": 8.26
+   },
+   {
+    "w": " multi",
+    "s": 8.26,
+    "e": 8.58
+   },
+   {
+    "w": "-focal",
+    "s": 8.58,
+    "e": 8.96
+   },
+   {
+    "w": " tapi",
+    "s": 8.96,
+    "e": 9.34
+   },
+   {
+    "w": " risau",
+    "s": 9.34,
+    "e": 9.68
+   },
+   {
+    "w": " pening",
+    "s": 9.68,
+    "e": 10.08
+   },
+   {
+    "w": " atau",
+    "s": 10.08,
+    "e": 10.34
+   },
+   {
+    "w": " susah",
+    "s": 10.34,
+    "e": 10.62
+   },
+   {
+    "w": " nak",
+    "s": 10.62,
+    "e": 10.74
+   },
+   {
+    "w": " biasakan",
+    "s": 10.74,
+    "e": 11.12
+   },
+   {
+    "w": " diri?",
+    "s": 11.12,
+    "e": 12.04
+   }
+  ]
+ },
+ {
+  "start": 12.4,
+  "end": 16.24,
+  "text": " Ramai sebenarnya tak gunakan multi-focal sebab takut tak selesa",
+  "words": [
+   {
+    "w": " Ramai",
+    "s": 12.4,
+    "e": 12.52
+   },
+   {
+    "w": " sebenarnya",
+    "s": 12.52,
+    "e": 13.1
+   },
+   {
+    "w": " tak",
+    "s": 13.1,
+    "e": 13.44
+   },
+   {
+    "w": " gunakan",
+    "s": 13.44,
+    "e": 13.8
+   },
+   {
+    "w": " multi",
+    "s": 13.8,
+    "e": 14.36
+   },
+   {
+    "w": "-focal",
+    "s": 14.36,
+    "e": 14.74
+   },
+   {
+    "w": " sebab",
+    "s": 14.74,
+    "e": 15.1
+   },
+   {
+    "w": " takut",
+    "s": 15.1,
+    "e": 15.44
+   },
+   {
+    "w": " tak",
+    "s": 15.44,
+    "e": 15.58
+   },
+   {
+    "w": " selesa",
+    "s": 15.58,
+    "e": 16.24
+   }
+  ]
+ },
+ {
+  "start": 16.24,
+  "end": 20.92,
+  "text": " Tapi keselesaan multi-focal bukan sahaja bergantung pada kantor sahaja",
+  "words": [
+   {
+    "w": " Tapi",
+    "s": 16.24,
+    "e": 16.94
+   },
+   {
+    "w": " keselesaan",
+    "s": 16.94,
+    "e": 17.72
+   },
+   {
+    "w": " multi",
+    "s": 17.72,
+    "e": 18.1
+   },
+   {
+    "w": "-focal",
+    "s": 18.1,
+    "e": 18.48
+   },
+   {
+    "w": " bukan",
+    "s": 18.48,
+    "e": 18.76
+   },
+   {
+    "w": " sahaja",
+    "s": 18.76,
+    "e": 19.08
+   },
+   {
+    "w": " bergantung",
+    "s": 19.08,
+    "e": 19.62
+   },
+   {
+    "w": " pada",
+    "s": 19.62,
+    "e": 19.92
+   },
+   {
+    "w": " kantor",
+    "s": 19.92,
+    "e": 20.2
+   },
+   {
+    "w": " sahaja",
+    "s": 20.2,
+    "e": 20.92
+   }
+  ]
+ },
+ {
+  "start": 20.92,
+  "end": 27.44,
+  "text": " Ia bergantung kepada pemeriksaan mata, ukuran yang tepat dan pemilihan bingkai yang sesuai",
+  "words": [
+   {
+    "w": " Ia",
+    "s": 20.92,
+    "e": 21.18
+   },
+   {
+    "w": " bergantung",
+    "s": 21.18,
+    "e": 21.66
+   },
+   {
+    "w": " kepada",
+    "s": 21.66,
+    "e": 22.04
+   },
+   {
+    "w": " pemeriksaan",
+    "s": 22.04,
+    "e": 22.8
+   },
+   {
+    "w": " mata,",
+    "s": 22.8,
+    "e": 23.54
+   },
+   {
+    "w": " ukuran",
+    "s": 23.62,
+    "e": 24.1
+   },
+   {
+    "w": " yang",
+    "s": 24.1,
+    "e": 24.32
+   },
+   {
+    "w": " tepat",
+    "s": 24.32,
+    "e": 24.7
+   },
+   {
+    "w": " dan",
+    "s": 24.7,
+    "e": 25.0
+   },
+   {
+    "w": " pemilihan",
+    "s": 25.0,
+    "e": 25.58
+   },
+   {
+    "w": " bingkai",
+    "s": 25.58,
+    "e": 26.08
+   },
+   {
+    "w": " yang",
+    "s": 26.08,
+    "e": 26.42
+   },
+   {
+    "w": " sesuai",
+    "s": 26.42,
+    "e": 27.44
+   }
+  ]
+ },
+ {
+  "start": 27.44,
+  "end": 31.88,
+  "text": " Di Haniza Optometry, kami melakukan pemeriksaan mata secara terperinci",
+  "words": [
+   {
+    "w": " Di",
+    "s": 27.44,
+    "e": 27.74
+   },
+   {
+    "w": " Haniza",
+    "s": 27.74,
+    "e": 28.1
+   },
+   {
+    "w": " Optometry,",
+    "s": 28.1,
+    "e": 28.8
+   },
+   {
+    "w": " kami",
+    "s": 29.06,
+    "e": 29.14
+   },
+   {
+    "w": " melakukan",
+    "s": 29.14,
+    "e": 29.68
+   },
+   {
+    "w": " pemeriksaan",
+    "s": 29.68,
+    "e": 30.36
+   },
+   {
+    "w": " mata",
+    "s": 30.36,
+    "e": 30.64
+   },
+   {
+    "w": " secara",
+    "s": 30.64,
+    "e": 31.18
+   },
+   {
+    "w": " terperinci",
+    "s": 31.18,
+    "e": 31.88
+   }
+  ]
+ },
+ {
+  "start": 31.88,
+  "end": 36.0,
+  "text": " dengan menggunakan alatan yang canggih dan terkini",
+  "words": [
+   {
+    "w": " dengan",
+    "s": 31.88,
+    "e": 32.32
+   },
+   {
+    "w": " menggunakan",
+    "s": 32.32,
+    "e": 33.04
+   },
+   {
+    "w": " alatan",
+    "s": 33.04,
+    "e": 33.56
+   },
+   {
+    "w": " yang",
+    "s": 33.56,
+    "e": 33.84
+   },
+   {
+    "w": " canggih",
+    "s": 33.84,
+    "e": 34.42
+   },
+   {
+    "w": " dan",
+    "s": 34.42,
+    "e": 34.78
+   },
+   {
+    "w": " terkini",
+    "s": 34.78,
+    "e": 36.0
+   }
+  ]
+ },
+ {
+  "start": 37.6,
+  "end": 41.56,
+  "text": " Kami juga mengambil ukuran khas untuk pemakaian multi-focal",
+  "words": [
+   {
+    "w": " Kami",
+    "s": 37.6,
+    "e": 37.98
+   },
+   {
+    "w": " juga",
+    "s": 37.98,
+    "e": 38.32
+   },
+   {
+    "w": " mengambil",
+    "s": 38.32,
+    "e": 38.76
+   },
+   {
+    "w": " ukuran",
+    "s": 38.76,
+    "e": 39.2
+   },
+   {
+    "w": " khas",
+    "s": 39.2,
+    "e": 39.66
+   },
+   {
+    "w": " untuk",
+    "s": 39.66,
+    "e": 40.0
+   },
+   {
+    "w": " pemakaian",
+    "s": 40.0,
+    "e": 40.54
+   },
+   {
+    "w": " multi",
+    "s": 40.54,
+    "e": 40.94
+   },
+   {
+    "w": "-focal",
+    "s": 40.94,
+    "e": 41.56
+   }
+  ]
+ },
+ {
+  "start": 41.56,
+  "end": 47.02,
+  "text": " dan kami membantu memilih bingkai yang sesuai bukan sekadar ikut fashion",
+  "words": [
+   {
+    "w": " dan",
+    "s": 41.56,
+    "e": 42.32
+   },
+   {
+    "w": " kami",
+    "s": 42.32,
+    "e": 42.68
+   },
+   {
+    "w": " membantu",
+    "s": 42.68,
+    "e": 43.38
+   },
+   {
+    "w": " memilih",
+    "s": 43.38,
+    "e": 43.94
+   },
+   {
+    "w": " bingkai",
+    "s": 43.94,
+    "e": 44.42
+   },
+   {
+    "w": " yang",
+    "s": 44.42,
+    "e": 44.6
+   },
+   {
+    "w": " sesuai",
+    "s": 44.6,
+    "e": 45.14
+   },
+   {
+    "w": " bukan",
+    "s": 45.14,
+    "e": 45.46
+   },
+   {
+    "w": " sekadar",
+    "s": 45.46,
+    "e": 46.04
+   },
+   {
+    "w": " ikut",
+    "s": 46.04,
+    "e": 46.38
+   },
+   {
+    "w": " fashion",
+    "s": 46.38,
+    "e": 47.02
+   }
+  ]
+ },
+ {
+  "start": 47.02,
+  "end": 52.36,
+  "text": " Matlamat kami adalah untuk membantu anda mendapatkan pendapatan jauh dan dekat",
+  "words": [
+   {
+    "w": " Matlamat",
+    "s": 47.02,
+    "e": 47.82
+   },
+   {
+    "w": " kami",
+    "s": 47.82,
+    "e": 48.18
+   },
+   {
+    "w": " adalah",
+    "s": 48.18,
+    "e": 48.58
+   },
+   {
+    "w": " untuk",
+    "s": 48.58,
+    "e": 49.14
+   },
+   {
+    "w": " membantu",
+    "s": 49.14,
+    "e": 49.66
+   },
+   {
+    "w": " anda",
+    "s": 49.66,
+    "e": 50.12
+   },
+   {
+    "w": " mendapatkan",
+    "s": 50.12,
+    "e": 50.88
+   },
+   {
+    "w": " pendapatan",
+    "s": 50.88,
+    "e": 51.54
+   },
+   {
+    "w": " jauh",
+    "s": 51.54,
+    "e": 51.8
+   },
+   {
+    "w": " dan",
+    "s": 51.8,
+    "e": 52.02
+   },
+   {
+    "w": " dekat",
+    "s": 52.02,
+    "e": 52.36
+   }
+  ]
+ },
+ {
+  "start": 52.36,
+  "end": 55.6,
+  "text": " dengan lebih selesa serta untuk menyesuaikan diri",
+  "words": [
+   {
+    "w": " dengan",
+    "s": 52.36,
+    "e": 52.64
+   },
+   {
+    "w": " lebih",
+    "s": 52.64,
+    "e": 52.94
+   },
+   {
+    "w": " selesa",
+    "s": 52.94,
+    "e": 53.46
+   },
+   {
+    "w": " serta",
+    "s": 53.46,
+    "e": 54.08
+   },
+   {
+    "w": " untuk",
+    "s": 54.08,
+    "e": 54.46
+   },
+   {
+    "w": " menyesuaikan",
+    "s": 54.46,
+    "e": 55.0
+   },
+   {
+    "w": " diri",
+    "s": 55.0,
+    "e": 55.6
+   }
+  ]
+ },
+ {
+  "start": 55.6,
+  "end": 59.88,
+  "text": " Berita baik untuk anda sepanjang bulan Ogos ini dengan pembelian kantor multi-focal",
+  "words": [
+   {
+    "w": " Berita",
+    "s": 55.6,
+    "e": 55.9
+   },
+   {
+    "w": " baik",
+    "s": 55.9,
+    "e": 56.16
+   },
+   {
+    "w": " untuk",
+    "s": 56.16,
+    "e": 56.32
+   },
+   {
+    "w": " anda",
+    "s": 56.32,
+    "e": 56.6
+   },
+   {
+    "w": " sepanjang",
+    "s": 56.6,
+    "e": 56.96
+   },
+   {
+    "w": " bulan",
+    "s": 56.96,
+    "e": 57.16
+   },
+   {
+    "w": " Ogos",
+    "s": 57.16,
+    "e": 57.44
+   },
+   {
+    "w": " ini",
+    "s": 57.44,
+    "e": 57.88
+   },
+   {
+    "w": " dengan",
+    "s": 57.88,
+    "e": 58.16
+   },
+   {
+    "w": " pembelian",
+    "s": 58.16,
+    "e": 58.76
+   },
+   {
+    "w": " kantor",
+    "s": 58.76,
+    "e": 59.24
+   },
+   {
+    "w": " multi",
+    "s": 59.24,
+    "e": 59.54
+   },
+   {
+    "w": "-focal",
+    "s": 59.54,
+    "e": 59.88
+   }
+  ]
+ },
+ {
+  "start": 59.88,
+  "end": 64.82,
+  "text": " Kami nak bagi free upgrade kantor auto gelap jimat singgit 700 singgit",
+  "words": [
+   {
+    "w": " Kami",
+    "s": 59.88,
+    "e": 60.22
+   },
+   {
+    "w": " nak",
+    "s": 60.22,
+    "e": 60.36
+   },
+   {
+    "w": " bagi",
+    "s": 60.36,
+    "e": 60.98
+   },
+   {
+    "w": " free",
+    "s": 60.98,
+    "e": 61.16
+   },
+   {
+    "w": " upgrade",
+    "s": 61.16,
+    "e": 61.62
+   },
+   {
+    "w": " kantor",
+    "s": 61.62,
+    "e": 62.12
+   },
+   {
+    "w": " auto",
+    "s": 62.12,
+    "e": 62.32
+   },
+   {
+    "w": " gelap",
+    "s": 62.32,
+    "e": 62.7
+   },
+   {
+    "w": " jimat",
+    "s": 62.7,
+    "e": 63.06
+   },
+   {
+    "w": " singgit",
+    "s": 63.06,
+    "e": 63.62
+   },
+   {
+    "w": " 700",
+    "s": 63.62,
+    "e": 63.92
+   },
+   {
+    "w": " singgit",
+    "s": 63.92,
+    "e": 64.82
+   }
+  ]
+ },
+ {
+  "start": 64.82,
+  "end": 67.72,
+  "text": " Khas untuk 30 orang terawal kami nak bagi voucher",
+  "words": [
+   {
+    "w": " Khas",
+    "s": 64.82,
+    "e": 65.1
+   },
+   {
+    "w": " untuk",
+    "s": 65.1,
+    "e": 65.3
+   },
+   {
+    "w": " 30",
+    "s": 65.3,
+    "e": 65.62
+   },
+   {
+    "w": " orang",
+    "s": 65.62,
+    "e": 65.92
+   },
+   {
+    "w": " terawal",
+    "s": 65.92,
+    "e": 66.5
+   },
+   {
+    "w": " kami",
+    "s": 66.5,
+    "e": 66.8
+   },
+   {
+    "w": " nak",
+    "s": 66.8,
+    "e": 66.96
+   },
+   {
+    "w": " bagi",
+    "s": 66.96,
+    "e": 67.22
+   },
+   {
+    "w": " voucher",
+    "s": 67.22,
+    "e": 67.72
+   }
+  ]
+ },
+ {
+  "start": 67.72,
+  "end": 71.74,
+  "text": " bernilai RM50 wassap kami sekarang untuk dapatkan promo code",
+  "words": [
+   {
+    "w": " bernilai",
+    "s": 67.72,
+    "e": 68.36
+   },
+   {
+    "w": " RM50",
+    "s": 68.36,
+    "e": 68.9
+   },
+   {
+    "w": " wassap",
+    "s": 68.9,
+    "e": 69.66
+   },
+   {
+    "w": " kami",
+    "s": 69.66,
+    "e": 69.86
+   },
+   {
+    "w": " sekarang",
+    "s": 69.86,
+    "e": 70.32
+   },
+   {
+    "w": " untuk",
+    "s": 70.32,
+    "e": 70.56
+   },
+   {
+    "w": " dapatkan",
+    "s": 70.56,
+    "e": 71.2
+   },
+   {
+    "w": " promo",
+    "s": 71.2,
+    "e": 71.5
+   },
+   {
+    "w": " code",
+    "s": 71.5,
+    "e": 71.74
+   }
+  ]
+ }
+]
