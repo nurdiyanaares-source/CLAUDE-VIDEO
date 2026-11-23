@@ -2,9 +2,12 @@ import React from 'react';
 import {AbsoluteFill, Audio, Easing, interpolate, OffthreadVideo, Sequence, staticFile, useCurrentFrame} from 'remotion';
 import './fonts';
 import {Badge, KeyIcon, PinIcon, SparkIcon} from './Badge';
-import {Outro} from './Outro';
+import {Branches} from './endcards/Branches';
+import {SceneShell} from './endcards/common';
+import {PanelPayment} from './endcards/PanelPayment';
+import {UpgradeColours} from './endcards/UpgradeColours';
 import {SafeZoneGuide} from './SafeZoneGuide';
-import {FPS, SFX, SOURCE_DURATION, ZOOMS} from './timeline';
+import {END_SCENES, END_STARTS, FPS, SFX, SOURCE_DURATION, ZOOMS} from './timeline';
 
 const f = (s: number) => Math.round(s * FPS);
 
@@ -37,7 +40,7 @@ export const HoyaEdit: React.FC<{showSafeZone: boolean}> = ({showSafeZone}) => {
         <Sequence from={f(27.7)} durationInFrames={f(31.85) - f(27.7)}>
           <Badge
             icon={<PinIcon />}
-            title="HANIZA OPTOMETRY"
+            title="HANIZAH OPTOMETRY"
             subtitle="Pemeriksaan mata terperinci"
             subtitleAt={f(29.68) - f(27.7)}
             durationInFrames={f(31.85) - f(27.7)}
@@ -48,9 +51,22 @@ export const HoyaEdit: React.FC<{showSafeZone: boolean}> = ({showSafeZone}) => {
         </Sequence>
       </Sequence>
 
-      <Sequence from={srcFrames}>
-        <Outro />
-      </Sequence>
+      {/* End cards: free-upgrade colours -> 9 branches -> panel & payment + CTA */}
+      {(
+        [
+          ['colours', <UpgradeColours key="c" />],
+          ['branches', <Branches key="b" />],
+          ['panel', <PanelPayment key="p" />],
+        ] as const
+      ).map(([k, el]) => {
+        const from = f(END_STARTS[k]);
+        const dur = f(END_STARTS[k] + END_SCENES[k]) - from;
+        return (
+          <Sequence key={k} from={from} durationInFrames={dur}>
+            <SceneShell durationInFrames={k === 'panel' ? dur + 30 : dur}>{el}</SceneShell>
+          </Sequence>
+        );
+      })}
 
       {SFX.map((s, i) => (
         <Sequence key={i} from={f(s.t)} durationInFrames={f(1.5)}>

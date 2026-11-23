@@ -1,7 +1,13 @@
 // All times in seconds, measured on the trimmed source (0 – 55.63s).
 export const FPS = 30;
 export const SOURCE_DURATION = 55.63; // cut right before "Berita baik ... bulan Ogos" (promo)
-export const OUTRO_DURATION = 3;
+// End sequence (after the trimmed video), in seconds
+export const END_SCENES = {colours: 5, branches: 8, panel: 5.5};
+export const OUTRO_DURATION = END_SCENES.colours + END_SCENES.branches + END_SCENES.panel;
+const E1 = SOURCE_DURATION;
+const E2 = E1 + END_SCENES.colours;
+const E3 = E2 + END_SCENES.branches;
+export const END_STARTS = {colours: E1, branches: E2, panel: E3};
 
 // TikTok + Instagram Reels combined safe zone on a 1080x1920 canvas.
 // Top 220px (IG header / TikTok tabs), bottom 480px (caption, music, CTA),
@@ -37,9 +43,24 @@ export const SFX: Sfx[] = [
   {t: 51.35, name: 'pop', vol: 0.55}, // "Penglihatan jauh & dekat"
   {t: 52.9, name: 'boom', vol: 0.25}, // punch-in "selesa"
   {t: 53.1, name: 'ding', vol: 0.45}, // ✓ Lebih selesa
-  {t: 54.7, name: 'riser', vol: 0.3}, // into outro
-  {t: SOURCE_DURATION, name: 'whoosh', vol: 0.6},
-  {t: SOURCE_DURATION + 0.35, name: 'sparkle', vol: 0.4},
+  {t: 54.7, name: 'riser', vol: 0.3}, // into end cards
+  // End card 1: free upgrade colours
+  {t: E1, name: 'whoosh', vol: 0.6},
+  {t: E1 + 0.07, name: 'boom', vol: 0.35},
+  {t: E1 + 0.3, name: 'pop', vol: 0.5},
+  {t: E1 + 0.5, name: 'pop', vol: 0.45},
+  ...[24, 32, 40, 48].map((fr) => ({t: E1 + fr / FPS, name: 'pop', vol: 0.5})),
+  {t: E1 + 2.0, name: 'sparkle', vol: 0.35},
+  // End card 2: branches
+  {t: E2 - 0.15, name: 'whoosh', vol: 0.5},
+  {t: E2 + 0.1, name: 'pop', vol: 0.5},
+  ...Array.from({length: 9}, (_, i) => ({t: E2 + (14 + i * 5) / FPS, name: 'tick', vol: 0.55})),
+  // End card 3: panel, payment, CTA
+  {t: E3 - 0.15, name: 'whoosh', vol: 0.5},
+  {t: E3 + 0.1, name: 'sparkle', vol: 0.4},
+  {t: E3 + 14 / FPS, name: 'pop', vol: 0.45},
+  {t: E3 + 26 / FPS, name: 'pop', vol: 0.45},
+  {t: E3 + 44 / FPS, name: 'ding', vol: 0.45},
   ...cuts.map((c) => ({t: c - 0.18, name: 'whoosh', vol: 0.35})),
 ];
 

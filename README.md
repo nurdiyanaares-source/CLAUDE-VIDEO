@@ -7,11 +7,14 @@ Re-edit of `HOYA FREE UPGRADE.mov` (1080×1920, 30fps) for TikTok & Instagram Re
 - **Transcript:** `transcript/transcript.ms.srt` (corrected Malay), raw Whisper output with word timings in `transcript/raw-whisper.json`.
 - **Motion graphics (new):** only in spots where the original edit's top area is empty, so nothing overlaps the burned-in captions:
   - 21.1s "3 KUNCI KESELESAAN"
-  - 27.7s "HANIZA OPTOMETRY" + "Pemeriksaan mata terperinci"
+  - 27.7s "HANIZAH OPTOMETRY" + "Pemeriksaan mata terperinci"
   - 33.0s "ALATAN CANGGIH" + "& terkini"
   - Punch-in zooms on *pening* (9.6s), *takut* (15.1s), *selesa* (52.9s)
-  - 3s outro card (blurred freeze + brand + CTA)
-- **SFX:** whoosh on every cut, pop on text pop-ins, ding on ✓, buzz on ✗, cash on "jimat RM700", riser/boom into outro. All synthesized by `scripts/make_sfx.py` (royalty-free).
+- **End cards (18.5s, `src/endcards/`):**
+  1. Free upgrade kanta auto gelap — 4 warna (Silver Grey, Bronze Brown, Emerald Green, Oceanic Blue), no supplier branding
+  2. Cawangan Kami (9) — branch names, landmarks, days & hours (`src/endcards/data.ts`)
+  3. Hanizah Optometry logo, panel (PMCare, Mednefits, MAIM Melaka), payment (SPayLater, Maybank EPP, Public Bank EPP) + CTA
+- **SFX:** whoosh on every cut, pop on text pop-ins, ding on ✓, buzz on ✗, cash on "jimat RM700", riser/boom/ticks on the end cards. All synthesized by `scripts/make_sfx.py` (royalty-free).
 - **Safe zone:** combined TikTok + IG Reels — top 220px, bottom 480px, right 140px, left 60px (`src/timeline.ts`). Toggle `showSafeZone` in Studio to see the guide.
 
 ## Rebuild
@@ -21,6 +24,6 @@ npm install
 npm run prepare-source
 npm run sfx
 npm run studio   # preview
-npm run render   # -> out/hoya-free-upgrade-edit.mp4
+npm run render   # -> out/hoya-free-upgrade-edit.mp4 (~74s)
 ```
 All timings live in `src/timeline.ts`.
