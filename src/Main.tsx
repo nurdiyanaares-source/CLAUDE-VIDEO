@@ -9,7 +9,7 @@ import {FontFaces} from './ui';
 type Sfx = [number, 'pop' | 'whoosh' | 'ding' | 'click' | 'cash' | 'boom' | 'sparkle' | 'swipe', number];
 const P = PROMO_START, O = OUTRO_START;
 const SFX: Sfx[] = [
-  [0, 'boom', 0.5],
+  [0, 'boom', 0.5], [6, 'pop', 0.45], [18, 'sparkle', 0.4], [124, 'swipe', 0.25],
   // header swaps
   [sf(10.92), 'whoosh', 0.35], [sf(28.16), 'whoosh', 0.35], [sf(52.92), 'whoosh', 0.35],
   // hook chips

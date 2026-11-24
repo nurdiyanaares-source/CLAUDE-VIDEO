@@ -23,10 +23,10 @@ const Footage: React.FC = () => {
   return (
     <AbsoluteFill style={{transform: `scale(${z})`, transformOrigin: '540px 435px'}}>
       <Sequence durationInFrames={A_END}>
-        <OffthreadVideo src={staticFile('source.mp4')} muted />
+        <OffthreadVideo src={staticFile('source_graded.mp4')} muted />
       </Sequence>
       <Sequence from={A_END} durationInFrames={B_LEN}>
-        <OffthreadVideo src={staticFile('source.mp4')} muted trimBefore={B_SRC_START} />
+        <OffthreadVideo src={staticFile('source_graded.mp4')} muted trimBefore={B_SRC_START} />
       </Sequence>
     </AbsoluteFill>
   );
@@ -166,7 +166,19 @@ const Graphics: React.FC = () => {
   const L = SAFE.left;
   return (
     <>
-      {/* hook: problem chips */}
+      {/* HOOK (0–4s): tease the offer so viewers stay to the end */}
+      <Pop from={6} to={128} style={{left: 95, top: 1050}} rotate={-6}>
+        <div style={{display: 'flex', alignItems: 'center', gap: 14, background: C.red, color: '#fff', fontFamily: 'Pop', fontWeight: 900, fontSize: 60, padding: '8px 34px', borderRadius: 24, border: '6px solid #fff', boxShadow: '0 18px 40px rgba(0,0,0,0.45)'}}>
+          <Icon code="1f381" size={70} /> FREE UPGRADE!
+        </div>
+      </Pop>
+      <Pop from={18} to={128} style={{left: 150, top: 1168}} rotate={3}>
+        <div style={{background: C.yellow, color: C.navy, fontFamily: 'Pop', fontWeight: 900, fontSize: 50, padding: '10px 32px', borderRadius: 24, boxShadow: '0 18px 40px rgba(0,0,0,0.45)', textAlign: 'center', lineHeight: 1.1}}>
+          Jimat sehingga RM700
+          <div style={{fontWeight: 800, fontSize: 30, marginTop: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8}}><Icon code="1f447" size={34} /> tonton sampai habis</div>
+        </div>
+      </Pop>
+      {/* problem chips */}
       <Pop from={sf(4.98)} to={sf(10.0)} style={{left: L + 10, top: 970}} rotate={-4}><Chip icon="1f4bb" text="Komputer" /></Pop>
       <Pop from={sf(5.56)} to={sf(10.0)} style={{left: 520, top: 1000}} rotate={4}><Chip icon="1f91d" text="Meeting" /></Pop>
       <Pop from={sf(7.14)} to={sf(10.0)} style={{left: L + 40, top: 1120}} rotate={3}><Chip icon="1f4f1" text="Phone" /></Pop>
