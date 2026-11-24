@@ -2,12 +2,13 @@
 export const FPS = 30;
 export const SOURCE_DURATION = 55.63; // cut right before "Berita baik ... bulan Ogos" (promo)
 // End sequence (after the trimmed video), in seconds
-export const END_SCENES = {colours: 5, branches: 8, panel: 5.5};
-export const OUTRO_DURATION = END_SCENES.colours + END_SCENES.branches + END_SCENES.panel;
+export const END_SCENES = {colours: 5, promo: 6, branches: 8, panel: 5.5};
+export const OUTRO_DURATION = END_SCENES.colours + END_SCENES.promo + END_SCENES.branches + END_SCENES.panel;
 const E1 = SOURCE_DURATION;
-const E2 = E1 + END_SCENES.colours;
+const EP = E1 + END_SCENES.colours;
+const E2 = EP + END_SCENES.promo;
 const E3 = E2 + END_SCENES.branches;
-export const END_STARTS = {colours: E1, branches: E2, panel: E3};
+export const END_STARTS = {colours: E1, promo: EP, branches: E2, panel: E3};
 
 // TikTok + Instagram Reels combined safe zone on a 1080x1920 canvas.
 // Top 220px (IG header / TikTok tabs), bottom 480px (caption, music, CTA),
@@ -51,7 +52,16 @@ export const SFX: Sfx[] = [
   {t: E1 + 0.5, name: 'pop', vol: 0.45},
   ...[24, 32, 40, 48].map((fr) => ({t: E1 + fr / FPS, name: 'pop', vol: 0.5})),
   {t: E1 + 2.0, name: 'sparkle', vol: 0.35},
-  // End card 2: branches
+  // End card: promo (photos + deadline)
+  {t: EP - 0.15, name: 'whoosh', vol: 0.5},
+  {t: EP + 2 / FPS, name: 'pop', vol: 0.5},
+  {t: EP + 8 / FPS, name: 'pop', vol: 0.45},
+  {t: EP + 18 / FPS, name: 'whoosh', vol: 0.3},
+  {t: EP + 28 / FPS, name: 'whoosh', vol: 0.3},
+  {t: EP + 40 / FPS, name: 'tick', vol: 0.5},
+  {t: EP + 56 / FPS, name: 'boom', vol: 0.35},
+  {t: EP + 58 / FPS, name: 'ding', vol: 0.4},
+  // End card: branches
   {t: E2 - 0.15, name: 'whoosh', vol: 0.5},
   {t: E2 + 0.1, name: 'pop', vol: 0.5},
   ...Array.from({length: 9}, (_, i) => ({t: E2 + (14 + i * 5) / FPS, name: 'tick', vol: 0.55})),

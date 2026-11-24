@@ -5,6 +5,7 @@ import {Badge, KeyIcon, PinIcon, SparkIcon} from './Badge';
 import {Branches} from './endcards/Branches';
 import {SceneShell} from './endcards/common';
 import {PanelPayment} from './endcards/PanelPayment';
+import {Promo} from './endcards/Promo';
 import {UpgradeColours} from './endcards/UpgradeColours';
 import {SafeZoneGuide} from './SafeZoneGuide';
 import {END_SCENES, END_STARTS, FPS, SFX, SOURCE_DURATION, ZOOMS} from './timeline';
@@ -51,10 +52,11 @@ export const HoyaEdit: React.FC<{showSafeZone: boolean}> = ({showSafeZone}) => {
         </Sequence>
       </Sequence>
 
-      {/* End cards: free-upgrade colours -> 9 branches -> panel & payment + CTA */}
+      {/* End cards: free-upgrade colours -> promo -> 9 branches -> panel & payment + CTA */}
       {(
         [
           ['colours', <UpgradeColours key="c" />],
+          ['promo', <Promo key="pr" />],
           ['branches', <Branches key="b" />],
           ['panel', <PanelPayment key="p" />],
         ] as const

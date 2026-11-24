@@ -10,10 +10,11 @@ Re-edit of `HOYA FREE UPGRADE.mov` (1080×1920, 30fps) for TikTok & Instagram Re
   - 27.7s "HANIZAH OPTOMETRY" + "Pemeriksaan mata terperinci"
   - 33.0s "ALATAN CANGGIH" + "& terkini"
   - Punch-in zooms on *pening* (9.6s), *takut* (15.1s), *selesa* (52.9s)
-- **End cards (18.5s, `src/endcards/`):**
+- **End cards (24.5s, `src/endcards/`):**
   1. Free upgrade kanta auto gelap — 4 warna (Silver Grey, Bronze Brown, Emerald Green, Oceanic Blue), no supplier branding
-  2. Cawangan Kami (9) — branch names, landmarks, days & hours (`src/endcards/data.ts`)
-  3. Hanizah Optometry logo, panel (PMCare, Mednefits, MAIM Melaka), payment (SPayLater, Maybank EPP, Public Bank EPP) + CTA
+  2. Promo: "Jom dapatkan Promosi Multifokal Tukar Warna" + 2 photos + "Sehingga 31 Disember sahaja"
+  3. Cawangan Kami (9) — branch names, landmarks, days & hours (`src/endcards/data.ts`)
+  4. Hanizah Optometry logo, panel (PMCare, Mednefits, MAIM Melaka), payment (SPayLater, Maybank EPP, Public Bank EPP) + CTA
 - **SFX:** whoosh on every cut, pop on text pop-ins, ding on ✓, buzz on ✗, cash on "jimat RM700", riser/boom/ticks on the end cards. All synthesized by `scripts/make_sfx.py` (royalty-free).
 - **Safe zone:** combined TikTok + IG Reels — top 220px, bottom 480px, right 140px, left 60px (`src/timeline.ts`). Toggle `showSafeZone` in Studio to see the guide.
 
@@ -24,6 +25,6 @@ npm install
 npm run prepare-source
 npm run sfx
 npm run studio   # preview
-npm run render   # -> out/hoya-free-upgrade-edit.mp4 (~74s)
+npm run render   # -> out/hoya-free-upgrade-edit.mp4 (~80s)
 ```
 All timings live in `src/timeline.ts`.
