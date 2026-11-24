@@ -4,6 +4,7 @@
   "scripts": {
     "prepare-source": "ffmpeg -y -i input/raw.mov -t 55.62 -c:v libx264 -crf 17 -preset fast -pix_fmt yuv420p -r 30 -c:a aac -b:a 192k -af afade=t=out:st=55.50:d=0.12 -movflags +faststart public/source.mp4",
     "sfx": "python3 -I scripts/make_sfx.py",
+    "music": "python3 -I scripts/make_music.py",
     "studio": "remotion studio",
     "render": "remotion render HoyaEdit out/render.mp4 --browser-executable=/opt/pw-browsers/chromium && ffmpeg -y -i out/render.mp4 -c:v copy -af alimiter=limit=0.89:level=false -c:a aac -b:a 192k -movflags +faststart out/hoya-free-upgrade-edit.mp4"
   },

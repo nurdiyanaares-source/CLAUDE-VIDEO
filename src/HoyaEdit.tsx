@@ -8,7 +8,7 @@ import {PanelPayment} from './endcards/PanelPayment';
 import {Promo} from './endcards/Promo';
 import {UpgradeColours} from './endcards/UpgradeColours';
 import {SafeZoneGuide} from './SafeZoneGuide';
-import {END_SCENES, END_STARTS, FPS, SFX, SOURCE_DURATION, ZOOMS} from './timeline';
+import {END_SCENES, END_STARTS, FPS, MUSIC, OUTRO_DURATION, SFX, SOURCE_DURATION, ZOOMS} from './timeline';
 
 const f = (s: number) => Math.round(s * FPS);
 
@@ -69,6 +69,21 @@ export const HoyaEdit: React.FC<{showSafeZone: boolean}> = ({showSafeZone}) => {
           </Sequence>
         );
       })}
+
+      <Audio
+        src={staticFile('music/bgm.wav')}
+        volume={(fr) => {
+          const total = f(SOURCE_DURATION + OUTRO_DURATION);
+          const swell = interpolate(fr, [f(MUSIC.swellStart), f(MUSIC.swellEnd)], [MUSIC.underSpeech, MUSIC.endCards], {
+            extrapolateLeft: 'clamp',
+            extrapolateRight: 'clamp',
+            easing: Easing.inOut(Easing.quad),
+          });
+          const out = interpolate(fr, [total - f(MUSIC.fadeOut), total - 1], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+          const fadeIn = interpolate(fr, [0, 10], [0, 1], {extrapolateRight: 'clamp'});
+          return swell * out * fadeIn;
+        }}
+      />
 
       {SFX.map((s, i) => (
         <Sequence key={i} from={f(s.t)} durationInFrames={f(1.5)}>
