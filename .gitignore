@@ -3,3 +3,5 @@ out/
 public/source.mp4
 public/voice.wav
 public/music.wav
+public/photo*.jpg
+public/poster.png

@@ -14,6 +14,8 @@ ffmpeg -i <video asal> -t 66 -c:v libx264 -crf 17 -pix_fmt yuv420p -r 30 -c:a aa
 ffmpeg -i public/source.mp4 -vn -af "highpass=f=70,acompressor=threshold=-20dB:ratio=2.5,loudnorm=I=-15:TP=-1.5:LRA=9,aresample=48000" -ac 2 public/voice.wav
 python3 scripts/make_audio.py public 83.0 63.73
 ```
+Letak juga gambar dari Drive sebagai `public/photo1.jpg`–`photo3.jpg` dan poster cawangan sebagai `public/poster.png`.
+
 ## Render
 ```
 npm install
