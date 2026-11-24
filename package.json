@@ -6,6 +6,8 @@
     "render": "remotion render Main out/promo-multifokal.mp4"
   },
   "dependencies": {
+    "@fontsource/great-vibes": "^5.1.0",
+    "@fontsource/playfair-display": "^5.1.0",
     "@fontsource/poppins": "^5.1.0",
     "@remotion/cli": "4.0.546",
     "@remotion/google-fonts": "4.0.546",
